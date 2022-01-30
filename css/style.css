@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 125px;
+    padding: 15px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width:50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.about{
+    height: calc(100% - 125px);
+    position:relative;
+}
+
+.extras{
+    position:absolute;
+    bottom:-500px;
+    right:-500px;
+    width:1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;   
+}
+
+.extras img{
+    width: 300px;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top:100px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin:20px 0;
+}
+
+.sublogo {
+    position: absolute;
+    right: 520px;
+    bottom: 2px;
+}
+
+.sublogo img{
+    display: inline-block;
+    width: 50px;
+    margin:20px;
+}
+
+.text-about{
+    margin-top: 40px;
+}
+
+.text-about h1{
+    font-size: 50px;
+}
+
+.text-about p{ 
+    margin: 20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.text-about button{
+    border:0;
+    font-size: 20px;
+    background-color: #017143;
+    color:white;
+    border-radius: 30px;
+    width: 150px;
+    height:50px;
+    cursor: pointer;
+}
